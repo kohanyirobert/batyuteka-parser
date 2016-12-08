@@ -45,7 +45,7 @@ def menu_build():
 
 
 def food_get(source):
-  foods = '\n'.join(batyu.get_menu(batyu.get_day_index()))
+  foods = '\n'.join(batyu.get_menu())
   Notify.Notification.new('<b>Mai menü</b>', foods, None).show()
 
 

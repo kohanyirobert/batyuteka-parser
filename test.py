@@ -2,8 +2,7 @@ import batyu
 
 
 def test():
-    day_index = batyu.get_day_index()
-    monday_foods = batyu.get_menu(day_index)
+    monday_foods = batyu.get_menu(0)
     assert len(monday_foods) > 0
 
     sunday_foods = batyu.get_menu(6)

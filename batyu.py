@@ -44,7 +44,7 @@ def get_rows(html):
     return rows[2::2]
 
 
-def get_menu(day_index):
+def get_menu(day_index = get_day_index()):
     if day_index < 0 or day_index > 5:
         return []
     menu_html = get_menu_html()
