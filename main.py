@@ -46,10 +46,7 @@ def menu_build():
 
 def food_get(source):
   foods = '\n'.join(batyu.get_menu(batyu.get_day_index()))
-  
-  Notify.Notification.new('<b>A wild Pokemon appeared</b>', 
-              foods,
-              None).show()
+  Notify.Notification.new('<b>Mai menü</b>', foods, None).show()
 
 
 def quit(source):
