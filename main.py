@@ -19,7 +19,7 @@ APPINDICATOR_ID = 'batyuteka-appindicator'
 def main():
   indicator = AppIndicator3.Indicator.new(
       APPINDICATOR_ID,
-      os.path.abspath('batyuteka.svg'),
+      os.path.abspath('batyuteka.png'),
       AppIndicator3.IndicatorCategory.SYSTEM_SERVICES)
   indicator.set_status(AppIndicator3.IndicatorStatus.ACTIVE)
   indicator.set_menu(menu_build())
