@@ -6,6 +6,7 @@ import random
 import signal
 import string
 import urllib.request
+import batyu
 
 from gi.repository import Gtk
 from gi.repository import AppIndicator3
